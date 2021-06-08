@@ -8,6 +8,7 @@ Scanner sc=new Scanner(System.in);
 String str=""; 
 System.out.println("Enter input string :");
 str=sc.nextLine();
+int n=str.length(); 
 String temp=str.substring(n/2,n)+str.substring(0,n/2);
 //System.out.println(temp);
 int i,j;
